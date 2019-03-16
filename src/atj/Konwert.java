@@ -31,7 +31,7 @@ public class Konwert extends HttpServlet {
 
 	protected double calc(double war1, String oper) {
 		double result = 0;
-		if (oper.equals("Farenheit")) {
+		if (oper.equals("Fahrenheit")) {
 			result = (war1 * 1.8) + 32;
 		} else if (oper.equals("Celcjusz")) {
 			result = (war1 - 32) / 1.8;
